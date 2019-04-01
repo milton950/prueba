@@ -33,3 +33,12 @@ git add "extension del archivo"
 
 ##Alias a los comandos 
 git config --global alias.alias "comando"
+
+##Regresar a un commit anterior
+git reset --hard "id del commit"
+
+##Crear una nueva rama 
+git branch "nombre de la rama"
+
+##Eliminar archivo 
+git rm "nombre del archivo"

@@ -25,7 +25,7 @@ git commit -m "comentario descriptivo"
 #Ver hitorial de commit
 git log
 
-## Ver historial 2
+##Ver historial 2
 git log --oneline --decorate --all --graph
 
 ##Agregar archivos especificos
@@ -40,5 +40,17 @@ git reset --hard "id del commit"
 ##Crear una nueva rama 
 git branch "nombre de la rama"
 
+##Cambiar a otra rama
+git checkout "nombre de la rama"
+
+##Unir ramas 
+git merge "nombre de la rama"
+
 ##Eliminar archivo 
 git rm "nombre del archivo"
+
+##Tag
+Son una refereancia a un commit especifico 
+
+##Creacion de un tag
+git tag "Nombre del tag"
